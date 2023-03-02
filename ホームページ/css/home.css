@@ -1,0 +1,60 @@
+
+.content{
+    width: 98%;
+    overflow: auto;
+    margin: 0px; 
+    padding: 250px 0px 50px 0px;
+}
+
+
+/*ここから先はヘッダー*/
+
+header{
+    font-family:"Arial" ;
+    position: fixed;
+    width: 98%;/*100%だとメールアドレスの.comのmが切れる問題が発生するため*/
+    height: 250px;
+    background-color:white;
+}
+.header-line1{
+    height: 180px;
+}
+
+.header-line2{
+    height: 50px;
+
+}
+
+.header-logo{
+    width: 550px;
+    height: 150px;
+    float: left;
+}
+
+.header-mailaddress{
+    float: right;
+
+}
+
+.header-list li{
+    background-color: #fff ;
+    color:#000; 
+    font-size: 30px; 
+    list-style: none;
+    float:left;
+    padding: 0px 20px 0px 20px;
+    margin:0px 20px 0px 20px
+}
+
+.header-now{
+    border-bottom:2px solid #8c69ff;
+}
+
+.page-link{
+    text-decoration:none;
+    color: #000;
+}
+.page-link:hover{
+    color:#0000EE;
+    text-decoration:underline;
+}
